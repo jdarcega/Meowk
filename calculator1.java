@@ -8,11 +8,16 @@ public class Calculator {
         return a - b;
     }
 
+    public static int multiplication(int a, int b) {
+        return a * b;
+    }
+
     
     public static void main(String[] args) {
         // Example usage of the calculator methods
         System.out.println("Addition: " + addition(5, 3));
         System.out.println("Subtraction: " + subtraction(5, 3));
-        
+        System.out.println("Multiplication: " + multiplication(5, 3));
+       
     }
 }
